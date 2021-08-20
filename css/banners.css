@@ -1,0 +1,260 @@
+/*BANNER*/
+
+
+
+#home #banner {
+    margin-top: 70px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 450px;
+    padding: 70px 0 0 0 ;
+    transition: background-image ease-out .3s;
+  }
+  .slide1{
+    background-image: url('../img/inicio/slide1.png');
+  }
+  .slide2{
+    background-image: url('../img/inicio/slide2.jpg');
+  }
+  .slide3{
+    background-image: url('../img/inicio/slide3.jpg');
+  }
+  .slide4{
+    background-image: url('../img/inicio/slide4.jpg');
+  }
+
+
+/*DIPLOMATURAS*/
+#diplo-dae #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/diplomatura-dae/header-diplo-dae.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #diplo-dae #banner {
+      background: url('../img/diplomatura-dae/header-diplo-dae.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;  
+      background-position: 24% 50%; 
+    }
+  }
+
+  #diplo-bim #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/diplomatura-bim/header-diplo-bim.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #diplo-bim #banner {
+      background: url('../img/diplomatura-bim/header-diplo-bim.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 23% 50%;   
+    }
+  }
+
+  #diplo-go #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/diplomatura-go/header-diplo-go.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #diplo-go #banner {
+      background: url('../img/diplomatura-go/header-diplo-go.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 23% 50%; 
+    }
+  }
+
+  /*REVIT*/
+
+  #revit-inicial #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/revit-inicial/header-revitinicial.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #revit-inicial #banner {
+      background: url('../img/revit-inicial/header-revitinicial.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+
+  #revit-mep #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/revit-mep/header-revitmep.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #revit-mep #banner {
+      background: url('../img/revit-mep/header-revitmep.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%; 
+    }
+  }
+
+  /*WORKSHOPS*/
+
+  #work-lastplanner #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/workshop-lastplanner/header-work-last.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #work-lastplanner #banner {
+      background: url('../img/workshop-lastplanner/header-work-last.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+
+  #work-servicios #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/workshop-servicios/header-work-servicios.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #work-servicios #banner {
+      background: url('../img/workshop-servicios/header-work-servicios.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+  #work-tableros #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/workshop-tableros/header-work-tableros.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #work-tableros #banner {
+      background: url('../img/workshop-tableros/header-work-tableros.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+  /*SERVICIOS*/
+
+  #servicios #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/servicios/header-servicios.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #servicios #banner {
+      background: url('../img/servicios/header-servicios.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+  /*NOSOTROS*/
+
+  #nosotros #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/nosotros/header-nosotros.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #nosotros #banner {
+      background: url('../img/nosotros/header-nosotros.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
+
+   /*COMUNIDAD*/
+
+   #comunidad #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/comunidad/header-comunidad.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #comunidad #banner {
+      background: url('../img/comunidad/header-comunidad.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
