@@ -238,7 +238,7 @@ a {
 }
 .dropdown-menu {
   top: 55px !important;
-  width: 362%;
+  width: 400%;
 }
 @media (max-width: 1025px){
   .dropdown-menu {
